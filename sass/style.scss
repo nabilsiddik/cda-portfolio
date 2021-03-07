@@ -1,0 +1,409 @@
+/*******************
+Global Css
+*******************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+}
+img{
+    max-width: 100%;
+}
+section{
+    padding: 120px 0;
+}
+.container{
+    max-width: 1070px;
+}
+h2{
+    font-size: 41.29px;
+    color: #fff;
+}
+h3{
+    font-size: 24px;
+    color: #fff;
+}
+h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+hr{
+    width: 87px;
+    height: 4px;
+    background:#c8d9e5;
+    margin: 20px auto;
+}
+
+/** Header area **/
+#header_area{
+    background-image: linear-gradient(rgba(135, 80, 150, .9), rgba(135, 80, 150, .9)), url('../images/header-img.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+    .header-overlay{
+        width: 100%;
+        min-height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    
+    .navbar{
+        padding: 30px 0;
+
+        ul li a{
+            color: #fff;
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+
+        ul li a:hover{
+            background: #643a79;
+            border-radius: 5px;
+
+        }
+    }
+    .hero-text-box{
+        padding: 200px 0;
+        h1{
+            font-size: 42.16px;
+            color: #fff;
+            margin-bottom: 60px;
+        }
+        button{
+            font-size: 18px;
+            background: #eb7d4b;
+            padding: 28px 80px;
+            color: #fff;
+            border: none;
+            border-bottom: 4px solid #c86a40;
+            border-radius: 5px;
+        }
+    }
+}
+
+/** Services area **/
+#services{
+    background: linear-gradient(rgba(23, 194, 164, .9),rgba(23, 194, 164, .9)), url('../images/service-bg.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    h2{
+        color: #fff;
+    }
+    hr{
+        width: 87px;
+        margin: 22px auto;
+        height: 4px;
+        background: #14a58c;
+    }
+    p{
+        color: #fff;
+    }
+    .service-text p{
+        max-width: 500px;
+        margin: auto;
+    }
+     .card{
+        background: rgba(23, 194, 164, 0);
+        border: none;
+
+     }
+     .card-body{
+        padding: 0em;
+     }
+    .child-service{
+        h3{
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/** Team section design **/
+#team{
+    background: linear-gradient(rgba(231, 241, 248, .9),rgba(231, 241, 248, .9)), url('../images/team-bg.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    .team-text{
+        
+        h2{
+            font-size: 41px;
+            color: #3c4761;
+        }
+        p{
+            color: #3c4761;
+        }
+    }
+
+    .team-child{
+        img{
+            margin-bottom: 30px;
+        }
+        h3{
+            color: #27283d;
+            font-size: 24px;
+        }
+        h4{
+            color: #30bae7;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #3c4761;
+        }
+    }
+
+    .social-icons{
+        .nav-link{
+            color: #fff;
+            width: 30px;
+            height: 30px;
+
+        }
+        .nav-item{
+           background: #597c94;
+           margin: 0 5px;
+           border-radius: 50%;
+           font-size: 14px;
+           line-height: 7px;
+        }
+
+    }
+ 
+}
+/** skils section design **/ 
+#skill_section{
+   
+    h2,h3,p{
+        color: #3c4761;
+    }
+
+    .skill-text{
+        margin-bottom: 40px;
+    }
+    svg.radial-progress circle{
+        stroke-width: 8;
+    }
+    svg.radial-progress text{
+        fill: #393939;
+    }
+    svg.web-design circle{
+        stroke: #30bae7;
+    }
+    svg.html-css circle{
+        stroke: #d74680;
+    }
+    svg.graphic-design circle{
+        stroke: #15c7a8  ;
+    }
+    svg.ui-ux circle{
+        stroke: #eb7d4b;
+    }
+}
+
+/** portfolio section design **/ 
+#portfolio_section{
+    background: linear-gradient(rgba(255, 221, 153, .9), rgba(255, 221, 153, .9)), url(../images/portfolio-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    h2,p{
+        color: #393939;
+    }
+    h4{
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+        text-align: center;
+        color: #393939;
+    }
+    p{
+        max-width: 505px;
+        margin: 0 auto;  
+    }
+    hr{
+       background: #e5c37f;
+    }
+    .portfolio-filter{
+        text-align: center;
+    }
+    button{
+        width: 83px;
+        height: 37px;
+        color: #393939;
+        border: 0;
+        border-radius: 5px;
+        margin: 45px 10px;
+        background: #ebc985;
+        transition: .5s;
+    }
+    button:hover{
+        box-shadow: inset 0 .3rem .5rem rgba(60, 71, 97, 0.5)
+    }
+    .mixitup-control-active{
+        background: #fff;
+    }
+    .portfolio-button a{
+            font-size: 18px;
+            background: #17c2a4;
+            padding: 28px 80px;
+            color: #fff;
+            border: none;
+            border-bottom: 4px solid #14a58c;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+            text-decoration: none;
+            margin-top: 70px;
+    }
+}
+
+/** Testimonial design **/ 
+#testimonial{
+    background: linear-gradient(rgba(215, 70, 128, .9), rgba(215, 70, 128, .9)), url(../images/testimonial-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    .testimonial-text{
+        
+        h2{
+            font-size: 41px;
+            color: #fff;
+            text-align: center;
+        }
+        p{
+            color: #fff;
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        hr{
+            background: #b73c6d;
+        }
+    }
+    .persion-details p,h3{
+        color: #fff;
+    }
+    .persion-details h5{
+        color: #ffdd99;
+    }
+
+}
+
+/** contact section design **/
+#contact-section{
+    background: linear-gradient(rgba(60, 84, 153, .9), rgba(60, 84, 153, .9)), url(../images/portfolio-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    .contact-text{
+        
+        h2{
+            font-size: 41px;
+            color: #fff;
+            text-align: center;
+        }
+        p{
+            color: #fff;
+            margin: 0 auto;
+            text-align: center;
+        }
+        hr{
+            background: #273a71;
+        }
+    }
+   
+    input,textarea{
+        background: #273a71;
+        border: 0;
+    }
+    form ::placeholder{
+        color: #fff;
+        opacity: 1;
+    }
+    input[type="submit"]{
+            font-size: 18px;
+            background: #30bae7;
+            padding: 28px 80px;
+            color: #fff;
+            border: none;
+            border-bottom: 4px solid #299ec5;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+            text-decoration: none;
+            margin-top: 60px;
+    }
+    form{
+        max-width: 865px;
+        margin: 0 auto;
+    }
+}
+/** footer area design **/ 
+#footer-section{
+    background: #344b8e;
+
+    ul{
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    ul li{
+        display: inline-block;
+        margin: 20px 25px;
+    }
+    ul li:first-child{
+        margin-left: 0;
+    }
+    ul li:last-child{
+        margin-right: 0;
+    }
+    ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #30bae7;
+    }
+}
+
+
+
+
+
+/*********************************
+Media Query
+**********************************/ 
+@media(max-width: 767px){
+    #services .card-body{
+        padding: 0 5em;
+    }
+}
+@media (max-width: 767px){
+    #header_area .hero-text-box h1{
+        font-size: 30px;
+    }
+    #header_area .hero-text-box button{
+        padding: 20px 50px;
+        
+    }
+    #services .card-body{
+        padding: 0 3em;
+    }
+}
+
